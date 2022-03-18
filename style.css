@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+html {
+  font-size: 62.5%; /*1 rem vaut 10px*/
+}
+
+body {
+  width: 100%;
+  background: black;
+  font-size: 1.4rem; /*soit 10px*/
+  color: white;
+}
+
+/* ********** couleur+font ********* */
+:root {
+  --primary-color: #ffdea0;
+  --seconday-color: #25252d;
+  --primary-shade: #575757;
+  --secondary-shades: #25252d;
+}
+
+/* ********** taille block ********* */
+.w {
+  width: 100%;
+}
+
+.h30 {
+  height: 30vh;
+}
+.h40 {
+  height: 40vh;
+}
+.h60 {
+  height: 60vh;
+}
+.h70 {
+  height: 70vh;
+}
+.h100 {
+  height: 100vh;
+}
+
+/* ********** position block ********* */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* ********** couleur block ********* */
+.s1 {
+  background-color: var(--secondary-shades);
+}
+
+.s2 {
+  background-color: #00ffff;
+}
+
+.s3 {
+  background-color: #5f9ea0;
+}
+
+.s4 {
+  background-color: #6495ed;
+}
+
+.s5 {
+  background-color: #ff7f50;
+}
+
+footer {
+  background-color: #bdb76b;
+}
+
+/* ********** header ********* */
+
+.block1 {
+  width: 80%;
+  height: 100%;
+  background-image: url("asset/img-banner-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hover {
+  width: 40%;
+  height: 100%;
+  background: black;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.texte-acceuil,
+h1,
+h2,
+p {
+  transform: translateX(27%);
+}
+
+.texte-acceuille {
+  padding-top: 2rem;
+}
+
+.block2 {
+  width: 20%;
+  height: 100%;
+  background-image: url("asset/img-banner-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu p {
+  margin-left: 1rem;
+}
+
+.btn-menu {
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-color);
+}
+
+.catalog {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.btn-catalogue {
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-color);
+  color: var(--secondary-shades);
+  align-items: center;
+}
